@@ -1,24 +1,18 @@
-right 
-right
-If (getColor == “blue”) {
-	down
+right();
+right();
+var A = getColor();
+
+function move (){
+  if (getColor() == "blue"){
+	down();
 } else { 
-	up
+	up();
 }
-right
-right
-If (getColor == “blue”) {
-	down
-} else { 
-	up
+right();
+right();
 }
-right
-right
-If (getColor == “blue”) {
-	down
-} else { 
-	up
-}
-right
-right
-right
+
+move();
+move();
+move();
+right();
